@@ -1,0 +1,49 @@
+body {
+    overflow: hidden;
+    background-size: 10007px;
+    background: no-repeat;
+    /* height: 168vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://imgs.search.brave.com/MPTVc0-vdV28M2HnJKykFeBGIk4H7oST-Iqw1SAYAHQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaGVyemluZGFn/aS5pbmZvL2ltYWdl/LzIwMjMvTm92L2hh/cHB5LWRpd2FsaS0y/MDIzLXdpc2hlcy5q/cGc);
+    background-position: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+  }
+  section {
+      /* height: 52vh; */
+      color: white;
+      /* padding-top: 7pc; */
+      /* gap: 13pc; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1pc;
+  }
+  
+  button {
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 20px;
+      background: #ff0000f7;
+      color: white;
+      padding: 10px;
+      border: 1px solid red;
+  }
+  #backgroundVideo{
+    /* padding-left: 1000pc; */
+    padding-top: 9pc;
+    width: 80vw;
+    height: 20vh;
+    opacity: 0;
+  }
+  p {
+    color: antiquewhite;
+}
